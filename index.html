@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Lista de tareas | To Do List</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1 class="lista-title">Lista de tareas</h1>
+            <div class="lista-input" id="lista-input">
+                <input type="text" placeholder="Nueva tarea">
+                <button class="btn-agregar" type="submit" title="Agregar tarea">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+            <div class="lista-controles">
+                <div class="lista-filtros">
+                    <span id="all" class="active">Todos</span>
+                    <span id="pending">Pendiente</span>
+                    <span id="completed">Completado</span>
+                </div>
+            </div>
+            <ul class="listas-container"></ul>
+            <button class="btn-eliminar-todo">Eliminar todo</button>
+        </div>
+    </main>
+
+    <footer>
+        <!-- contacto emanuel bonardo -->
+        <div class="contenido-ema" id="contenido-ema">
+            <img class="img-perfil" src="./img/perfil.jpg" alt="img-perfil">
+        </div>
+        <div class="contenido-contacto" id="mensaje-contacto">
+            <div class="btn-cerrar" id="btn-cerrar">&times;</div>
+            <div class="social-iconos">
+                <a href="https://www.linkedin.com/in/emanuelb94/" target="_blank"><i class="fa-brands fa-linkedin" title="Linkedin"></i></a>
+                <a href="https://github.com/emanuelcba94" target="_blank"><i class="fa-brands fa-github" title="GitHub"></i></a>
+                <a href="https://www.instagram.com/emanuelbonardo/" target="_blank"><i class="fa-brands fa-instagram" title="Instagram"></i></a>
+            </div>
+            <div class="contacto-email">
+                <a href="mailto:emanuelb94@outlook.com"><span title="Email">emanuelb94@outlook.com</span></a>
+            </div>
+            <p class="copyright-ema">&copy; Emanuel Bonardo</p>
+        </div>
+        <!-- fin contacto emanuel bonardo -->
+    </footer>
+    <!-- js -->
+    <script src="./js/contacto-ema.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
